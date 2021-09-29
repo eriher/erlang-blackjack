@@ -1,0 +1,14 @@
+{application, blackjack,
+ [{description, "A simple blackjack implementation"},
+  {vsn, "1.0.0"},
+  {registered, [blackjack_app, black_jack_sup, blackjack_dealer, blackjack_client]},
+  {mod, {blackjack_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, [blackjack_app, black_jack_sup, blackjack_dealer, blackjack_client]},
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
