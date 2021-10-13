@@ -4,9 +4,9 @@ A simple erlang blackjack game
 -Launches a gen_server, the dealer and a gen_fsm client.
 
 -Plans to:
-*Some type of betting with user tracking
-*Support multiple tables/dealers with differing betting rules
-*Multiple clients
+* Some type of betting with user tracking
+* Support multiple tables/dealers with differing betting rules
+* Multiple clients
 
 Build
 -----
